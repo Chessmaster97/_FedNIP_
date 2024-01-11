@@ -1,4 +1,4 @@
-# Federated Learning on Non-IID Data with Local-drift Decoupling and Correction
+# FedNIP: A Statistical Heterogeneity Aware Dynamic Ranking Algorithm for Federated Learning
 Code for paper - **[Federated Learning on Non-IID Data with Local-drift Decoupling and Correction]**
 
 We provide code to run FedDC, FedAvg, 
