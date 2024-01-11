@@ -65,4 +65,3 @@ In the config file all the important parameters can be set. The runexperiments f
 | `sample` | Ratio of parties that participate in each communication round, default = `1`. |
 | `init_seed` | The initial seed, default = `0`. |
 
-
