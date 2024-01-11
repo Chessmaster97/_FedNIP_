@@ -1,0 +1,4 @@
+[{"client_id": 1, "communication_round": 1, "epoch": 1, "accuracy": 0.1269}
+, {"client_id": 1, "communication_round": 2, "epoch": 1, "accuracy": 0.3419},
+  {"client_id": 1, "communication_round": 3, "epoch": 1, "accuracy": 0.4432},
+  {"client_id": 1, "communication_round": 4, "epoch": 1, "accuracy": 0.4321}][{"client_id": 1, "communication_round": 1, "epoch": 1, "accuracy": 0.1269}, {"client_id": 1, "communication_round": 2, "epoch": 1, "accuracy": 0.3419}, {"client_id": 1, "communication_round": 3, "epoch": 1, "accuracy": 0.4432}, {"client_id": 1, "communication_round": 4, "epoch": 1, "accuracy": null}]

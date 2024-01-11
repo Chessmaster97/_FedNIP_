@@ -1,0 +1,5 @@
+{"client_records":
+[{"client_id": 0, "communication_round": 1, "epoch": 1, "accuracy": 0.1178},
+  {"client_id": 0, "communication_round": 2, "epoch": 1, "accuracy": 0.3582},
+  {"client_id": 0, "communication_round": 3, "epoch": 1, "accuracy": 0.4591},
+  {"client_id": 0, "communication_round": 4, "epoch": 1, "accuracy": null}]}

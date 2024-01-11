@@ -1,0 +1,94 @@
+{
+  "clusters": [
+    {
+      "id": 1,
+      "clients": [
+        2,
+        4
+      ],
+      "chosen_count": 128
+    },
+    {
+      "id": 2,
+      "clients": [
+        9,
+        0,
+        6
+      ],
+      "chosen_count": 128
+    },
+    {
+      "id": 0,
+      "clients": [
+        3,
+        7,
+        1,
+        5,
+        8
+      ],
+      "chosen_count": 128
+    }
+  ],
+  "clients": {
+    "0": {
+      "chosen_count": 0,
+      "performance": [
+        0.36760000000000004
+      ]
+    },
+    "1": {
+      "chosen_count": 0,
+      "performance": [
+        0.34835
+      ]
+    },
+    "2": {
+      "chosen_count": 0,
+      "performance": [
+        0.40835
+      ]
+    },
+    "3": {
+      "chosen_count": 0,
+      "performance": [
+        0.3594
+      ]
+    },
+    "4": {
+      "chosen_count": 0,
+      "performance": [
+        0.381
+      ]
+    },
+    "5": {
+      "chosen_count": 0,
+      "performance": [
+        0.34455
+      ]
+    },
+    "6": {
+      "chosen_count": 0,
+      "performance": [
+        0.3661
+      ]
+    },
+    "7": {
+      "chosen_count": 0,
+      "performance": [
+        0.35155000000000003
+      ]
+    },
+    "8": {
+      "chosen_count": 0,
+      "performance": [
+        0.32809999999999995
+      ]
+    },
+    "9": {
+      "chosen_count": 0,
+      "performance": [
+        0.36915
+      ]
+    }
+  }
+}
