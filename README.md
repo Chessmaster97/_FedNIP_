@@ -42,7 +42,7 @@ For example, you can follow the following steps to run the experiments:
     
 ## Config file
 In the config file all the important parameters can be set. The runexperiments file uses this file to set the parameters:
-```
+
 
 | Parameter      | Description                                                                                    |
 | --------------- | ---------------------------------------------------------------------------------------------- |
