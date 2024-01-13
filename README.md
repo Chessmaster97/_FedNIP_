@@ -12,36 +12,9 @@ We provide code to run FedDC, FedAvg,
     pip install -r requirements.txt
     ```
 
-## Datasets preparation
-**We give datasets for the benchmark, including CIFAR10, CIFAR100, MNIST, EMNIST-L and the synthetic dataset.**
-
-
-
-
-You can obtain the datasets when you first time run the code on CIFAR10, CIFAR100, MNIST, synthetic datasets.
-EMNIST needs to be downloaded from this [link](https://www.nist.gov/itl/products-and-services/emnist-dataset).
-
-
-For example, you can follow the following steps to run the experiments:
-
-```python example_code_mnist.py```
-```python example_code_cifar10.py```
-```python example_code_cifar100.py```
-
-1. Run the following script to run experiments on the MNIST dataset for all above methods:
-    ```
-    python example_code_mnist.py
-    ```
-2. Run the following script to run experiments on CIFAR10 for all above methods:
-    ```
-    python example_code_cifar10.py
-    ```
-3. Run the following script to run experiments on CIFAR100 for all above methods:
-    ```
-    python example_code_cifar10.py
-    
+  
 ## Config file
-In the config file all the important parameters can be set. The runexperiments file uses this file to set the parameters:
+In the config file all the important parameters can be set. The run file uses this file to set the parameters:
 
 
 | Parameter      | Description                                                                                    |
@@ -58,4 +31,11 @@ In the config file all the important parameters can be set. The runexperiments f
 | `Evaluationinterval`    | Number of communication rounds to use, default = `50`.                                         |
 | `L`    | Learning rate for the local models, default = `0.01`. .                                         |
 | `E`     | The partition way. Options: `homo`, `noniid-labeldir`, `noniid-#label1` (or 2, 3, ..., which means the fixed number of labels each party owns), `real`, `iid-diff-quantity`. Default = `homo`. |
+
+## Running experiments
+
+1. Run the following script to run experiments on the MNIST dataset for all above methods:
+    ```
+    python run.py
+    ```
 
