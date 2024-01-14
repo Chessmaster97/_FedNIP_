@@ -29,8 +29,8 @@ In the config file all the important parameters can be set. The run file uses th
 | `P`     | threshold value (difference %) for a random client to swap with top performer.                                                              |
 | `T`            | threshold value (difference %) for a random client to swap with top performer.                                    |
 | `Mu`           | The proximal term parameter for FedProx, default = `0.001`.                                    |
-| `Evaluationinterval`    | ; set evaluation interval for evauation and exploitation, number indicates how often the proxy model is used.                                         |
-| `L`    | Learning rate for the local models, default = `0.01`. .                                         |
+| `Evaluationinterval`    | Number indicates how often the proxy model is used. For example set to 3 means that in every third round the proxy model is used and rankings are updated.                                         |
+| `L`    | Learning rate for the local models, default = `0.01`.                                     |
 | `E`     | The number of local Epochs |
 
 ## Running experiments
