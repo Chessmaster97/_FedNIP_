@@ -65,9 +65,9 @@ In the config file all the important parameters can be set. The run file uses th
         with open(filename, "w") as file:
             file.write(f"Total execution time: {server_execution_time:.2f} seconds\n")
     
-    **dir_parameters = [0.3]
-    num_clients = [250]
-    algorithms = ["FedNIP_full","FedNIP_part"]**
+    **dir_parameters = [0.3]**
+    **num_clients = [250]**
+    **algorithms = ["FedNIP_full","FedNIP_part"]**
     
     for dir_param in dir_parameters:
         for clients in num_clients:
