@@ -1,10 +1,10 @@
 # FedNIP: A Statistical Heterogeneity Aware Dynamic Ranking Algorithm for Federated Learning
-This is the code used for the implementation of FedNIP full, FedNIP part, FedAvg and FedProx. 
+This is the code used for the implementation of FedNIP full, FedNIP part, FedAvg and FedProx using the [Flower Framework](https://flower.dev/)
 
 The paper of these algorithms can be found below:
 
 [FedNIP](https://openreview.net/pdf?id=B7v4QMR6Z9w), 
-[FedAvg](https://openreview.net/pdf?d=eoQBpdMy81m#:~:text=The%20Federated%20Averaging%20(FedAvg)%20(,originally%20proposed%20through%20empirical%20observations.)), and [FedProx](https://arxiv.org/abs/1812.06127) methods.
+[FedAvg](https://openreview.net/pdf?d=eoQBpdMy81m#:~:text=The%20Federated%20Averaging%20(FedAvg)%20(,originally%20proposed%20through%20empirical%20observations.)), and [FedProx](https://arxiv.org/abs/1812.06127).
 
 
 ## Prerequisite
