@@ -38,11 +38,11 @@ In the config file all the important parameters can be set. The run file uses th
     ```
     python run.py
     ```
-2 The run.py look as follows:
+2 In the run.py file you can set the parameters you want for the experiment in the lists below:
 
-    dir_parameters = [0.3]
-    num_clients = [250]
-    algorithms = ["FedNIP_full","FedNIP_part"]
+    dir_parameters = [0.6,0.3,0.05]
+    num_clients = [50,100,250]
+    algorithms = ["FedAvg","FedProx","FedNIP_full","FedNIP_part"]
     
     for dir_param in dir_parameters:
         for clients in num_clients:
