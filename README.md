@@ -40,33 +40,9 @@ In the config file all the important parameters can be set. The run file uses th
     ```
 2 The run.py look as follows:
     ```
-    import subprocess
-    import sys
-    import time
-    import testconfig
-    
-    def run_initial_setup():
-        # Call the function from setupdata4.py using subprocess
-        subprocess.run([sys.executable, "SetupData4.py"])
-        # Add any additional setup steps here if needed
-    
-    def execute_server(server_command):
-        server_start_time = time.time()
-        server_process = subprocess.Popen(server_command, shell=True)
-        while True:
-            if server_process.poll() is not None:
-                break
-            time.sleep(1)
-        server_end_time = time.time()
-        return server_end_time - server_start_time
-    
-    def write_execution_time(algorithm, clients, dir_param, server_execution_time):
-        filename = f"FINALEXECUTIONTIME_{algorithm}_{clients}_{dir_param}.txt"
-        with open(filename, "w") as file:
-            file.write(f"Total execution time: {server_execution_time:.2f} seconds\n")
-**dir_parameters = [0.3]**
-**num_clients = [250]**
-**algorithms = ["FedNIP_full","FedNIP_part"]**
+    dir_parameters = [0.3]
+    num_clients = [250]
+    algorithms = ["FedNIP_full","FedNIP_part"]
     
     for dir_param in dir_parameters:
         for clients in num_clients:
