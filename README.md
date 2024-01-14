@@ -23,15 +23,15 @@ In the config file all the important parameters can be set. The run file uses th
 | `Strategy`         | The strategy selected for training. Options: `FedProx`, `FedNIP`, `FedAvg`.        |
 | `Num_Clients`       | Number of clients you want for the simulation. Give an integer as input . |
 | `Num_Rounds`           | Number of rounds in simulation. Give an integer as input. |
-| `Dir_parameter`            |                                          |
-| `K`    | Batch size, default = `64`.                                                                    |
-| `R`        | Number of local training epochs, default = `5`.                                                |
-| `P`     | Number of parties, default = `2`.                                                              |
-| `T`            | The proximal term parameter for FedProx, default = `0.001`.                                    |
-| `Mu`           | The parameter controlling the momentum SGD, default = `0`.                                    |
-| `Evaluationinterval`    | Number of communication rounds to use, default = `50`.                                         |
+| `Dir_parameter`            |  Here you can set the alpha value to split the data according to the Dirchelet Distribution. The lower the alpha value, the higher degree of non-idd                                        |
+| `K`    | Percentage of top performing clients in cluster. For example 0.1.                                                                    |
+| `R`        | Percentage of random clients to select in cluster. For example 0.1.                                                |
+| `P`     | threshold value (difference %) for a random client to swap with top performer.                                                              |
+| `T`            | threshold value (difference %) for a random client to swap with top performer.                                    |
+| `Mu`           | The proximal term parameter for FedProx, default = `0.001`.                                    |
+| `Evaluationinterval`    | ; set evaluation interval for evauation and exploitation, number indicates how often the proxy model is used.                                         |
 | `L`    | Learning rate for the local models, default = `0.01`. .                                         |
-| `E`     | The partition way. Options: `homo`, `noniid-labeldir`, `noniid-#label1` (or 2, 3, ..., which means the fixed number of labels each party owns), `real`, `iid-diff-quantity`. Default = `homo`. |
+| `E`     | The number of local Epochs |
 
 ## Running experiments
 
