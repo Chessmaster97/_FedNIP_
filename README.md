@@ -35,7 +35,7 @@ In the config file all the important parameters can be set. The run file uses th
 
 ## Running experiments
 
-1. Run the following script to run experiments on the MNIST dataset for all above methods:
+1. Run the following script to run experiments on the CIFAR-10 dataset for all above methods:
     ```
     python run.py
     ```
